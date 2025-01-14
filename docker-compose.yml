@@ -8,5 +8,5 @@ services:
       - ~/dev/database/postgres:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD=password
-      - POSTGRES_USER=ai-foundations
+      - POSTGRES_USER=user
       - POSTGRES_DB=ai-foundations
